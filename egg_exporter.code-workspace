@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "/home/jboisvert/private/.config/blender/2.68/scripts/addons/egg_exporter/"
+		}
+	],
+	"settings": {
+		"python.linting.pylintEnabled": false,
+		"python.linting.enabled": true,
+		"python.linting.pep8Path": "/home/jboisvert/private/.local/bin/pep8",
+		"python.unitTest.unittestEnabled": true,
+		"python.unitTest.unittestArgs": [
+			"-v",
+			"-s",
+			".",
+			"-p",
+			"*_test.py"
+		],
+		"editor.rulers": [
+			120
+		],
+		"python.linting.flake8Enabled": true,
+		"python.linting.flake8Path": "/home/jboisvert/private/.local/bin/flake8",
+		"python.linting.flake8Args": [
+			"--max-line-length",
+			"120"
+		],
+		"pythonTestExplorer.testFramework": "unittest",
+		"python.unitTest.cwd": "${workspaceFolder}/test"
+	}
+}
